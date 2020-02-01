@@ -9,6 +9,7 @@ Ce programme ne prend pas en considération les proxys, ainsi si on utilise un n
 -Compiler le fichier serveur.c
 
 -L'exécuter avec en 1er argument le numéro de port pour répondre aux requêtes, et en second argument le numéro de port pour envoyer le fichier de logs
+
 Exemple: ./serveur 7000 7001
 
 Si on veut se connecter au serveur, et que son port est 7000, il faut taper la ligne suivante dans le navigateur:
