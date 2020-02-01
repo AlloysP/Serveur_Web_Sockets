@@ -7,10 +7,12 @@ Ce serveur écoute sur 2 ports donnés en argument sur la ligne de commande. Il 
 Ce programme ne prend pas en considération les proxys, ainsi si on utilise un navigateur avec un proxy, le serveur ne répondra pas.
 
 -Compiler le fichier serveur.c
+
 -L'exécuter avec en 1er argument le numéro de port pour répondre aux requêtes, et en second argument le numéro de port pour envoyer le fichier de logs
 Exemple: ./serveur 7000 7001
 
 Si on veut se connecter au serveur, et que son port est 7000, il faut taper la ligne suivante dans le navigateur:
 http://localhost:7000/
+
 Si on veut par exemple demander un fichier file.txt:
 http://localhost:7000/file.txt
